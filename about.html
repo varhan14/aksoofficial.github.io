@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="website.html"><img src="log.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hidemenu()"></i>
+				<ul>
+					
+					<li><a href="website.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="postings.html">Postings</a></li>
+					<li><a href="contact.html">Contact</a></li>
+
+				</ul>
+			</div>
+			<i class="fa fa-bars"onclick="showmenu()"></i>
+		</nav>
+		<h1>Join our organization now</h1>
+	</section>
+
+<!----------about us content------------>
+<section class="aboutus">
+	<div class="row">
+		<div class="about-col">
+			<h1>An organization to develop and spread science</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere fermentum fringilla. Integer vel arcu quis orci imperdiet </p>
+			<a href="">Explore</a>
+		</div>
+		<div class="about-col">
+			<img src="about.jpg">
+		</div>
+		
+
+
+
+
+
+
+	</div>
+</section>
+<!--testimonal-->
+<section class="testimonal">
+	<h1>Founders of this Organization</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere fermentum fringilla. Integer vel arcu quis orci imperdiet </p>
+	<div class="row">
+	<div class="testimonal-col">
+		<img src="1.jpg">
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere fermentum fringilla. Integer vel arcu quis orci imperdiet </p>
+			<h3>chris</h3>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+	</div>
+<div class="testimonal-col">
+		<img src="user2.jpg">
+		<div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere fermentum fringilla. Integer vel arcu quis orci imperdiet </p>
+			<h3>manday</h3>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-o"></i>
+		</div>
+	</div>
+	</div>
+
+</section>
+
+<section class="footer">
+	<h4>About us</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere fermentum fringilla. Integer vel arcu quis orci imperdiet </p>
+<div class="icons">
+	
+			<a href="https://www.facebook.com/groups/712458316016230"><i class="fa fa-facebook"></i></a>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-youtube"></i>
+		<i class="fa fa-whatsapp"></i>
+
+
+
+</div>
+<p>Made with<i class="fa fa-heart"></i>in India </p>
+
+
+</section>
+
+
+
+
+
+<!------------javascript for toggle menu------------->
+
+<script>
+	
+var navlinks = document.getElementById("navlinks");
+
+function showmenu(){
+	navlinks.style.right = "0";
+}
+function hidemenu(){
+	navlinks.style.right = "-210px";
+}
+
+</script>
+
+
+</body>
+</html>
